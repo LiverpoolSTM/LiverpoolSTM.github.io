@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dev page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/w3lstm.css">
+    <script src="../java/w3java.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <!-- Page container -->
+    <div class="brightspace-container">
+
+            
+
+
+
+
+
+
+      <!-- Accordion -->
+        <p class="subline">Click on row to expand it and reveal more information.</p>
+        <div class="accordion-block">
+            <!-- 1 -->
+            <h3 class="nomargin">
+                <button onclick="myFunction('Acc1')" class="w3-button grey-hover black-active w3-block w3-left-align w3-border nomargin">
+                    <span class="material-icons accordion-icons">chevron_right</span>
+                    Introduction to discussion board activities
+                </button>
+            </h3>
+            <!-- Accordion inner text -->
+            <div id="Acc1" class="w3-hide accordion-container">
+              <p>Discussion board activities are held within Brightspace, and as such require an internet connection to access. If you are working offline, we recommend you participate in the activity wherever possible, and prepare your responses to copy and paste into discussions when you have internet access.</p>
+            <p><strong>In discussion board activities, you will be asked to:</strong></p>
+            <ul>
+                <li>Read, view or otherwise engage with content</li>
+                <li>Discuss that content, and your thoughts on it, with your fellow students</li>
+            </ul>
+            <p>If you are among the first students to contribute to any discussion board, we would like you to return later in the week to see what your peers have shared; and respond wherever you can contribute further to the discussion.</p>
+            <p>Further specific instructions will be included on the discussion board when you access it (see below the task for instructions).</p>
+            </div>
+            <!-- Accordion SCRIPT -->
+            <script>
+                function myFunction(id) {
+                var x = document.getElementById(id);
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                }
+                }
+                document.addEventListener('click', event => {
+                if (event.target.matches('button')) {
+                event.target.focus()
+                }
+                })
+            </script>
+        </div>
+
+      <!-- MLP table -->
+      <div class="w3-section-24">
+        <h3>Table: Module Learning Plan</h3>
+        <figcaption>*W/c = week commencing</figcaption>
+        <table class="w3-table-all w3-hoverable w3-margin-bottom mlp">
+            <tr>
+                <th>W/c*</th>
+                <th>Topic</th>
+                <th>Learning outcome</th>
+                <th>Thread</th>
+                <th>Activity</th>
+                <th>Learning hours</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Module induction</td>
+                <td>
+                  <ul>
+                    <li>LO 1</li>
+                    <li>LO 2</li>
+                    <li>LO 3</li>
+                  </ul>
+                </td>
+                <td>Thread text here...</td>
+                <td>Activity text here...</td>
+                <td>Learning hours here... E.g. seminars, debates, online learning, reading, etc. Please indicate if synchronous or asynchronous.</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Topic here...</td>
+              <td>
+                <ul>
+                  <li>LO 1</li>
+                  <li>LO 2</li>
+                  <li>LO 3</li>
+                </ul>
+              </td>
+              <td>Thread text here...</td>
+              <td>Activity text here...</td>
+              <td>Learning hours here...</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Topic here...</td>
+              <td>
+                <ul>
+                  <li>LO 1</li>
+                  <li>LO 2</li>
+                  <li>LO 3</li>
+                </ul>
+              </td>
+              <td>Thread text here...</td>
+              <td>Activity text here...</td>
+              <td>Learning hours here...</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Topic here...</td>
+              <td>
+                <ul>
+                  <li>LO 1</li>
+                  <li>LO 2</li>
+                  <li>LO 3</li>
+                </ul>
+              </td>
+              <td>Thread text here...</td>
+              <td>Activity text here...</td>
+              <td>Learning hours here...</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Topic here...</td>
+              <td>
+                <ul>
+                  <li>LO 1</li>
+                  <li>LO 2</li>
+                  <li>LO 3</li>
+                </ul>
+              </td>
+              <td>Thread text here...</td>
+              <td>Activity text here...</td>
+              <td>Learning hours here...</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Topic here...</td>
+              <td>
+                <ul>
+                  <li>LO 1</li>
+                  <li>LO 2</li>
+                  <li>LO 3</li>
+                </ul>
+              </td>
+              <td>Thread text here...</td>
+              <td>Activity text here...</td>
+              <td>Learning hours here...</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Topic here...</td>
+              <td>
+                <ul>
+                  <li>LO 1</li>
+                  <li>LO 2</li>
+                  <li>LO 3</li>
+                </ul>
+              </td>
+              <td>Thread text here...</td>
+              <td>Activity text here...</td>
+              <td>Learning hours here...</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Topic here...</td>
+              <td>
+                <ul>
+                  <li>LO 1</li>
+                  <li>LO 2</li>
+                  <li>LO 3</li>
+                </ul>
+              </td>
+              <td>Thread text here...</td>
+              <td>Activity text here...</td>
+              <td>Learning hours here...</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Topic here...</td>
+              <td>
+                <ul>
+                  <li>LO 1</li>
+                  <li>LO 2</li>
+                  <li>LO 3</li>
+                </ul>
+              </td>
+              <td>Thread text here...</td>
+              <td>Activity text here...</td>
+              <td>Learning hours here...</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+
+      <!-- Activity panel -->
+      <div class="w3-panel burgundybg w3-round w3-padding">
+        <h2><span class="material-icons">assignment</span> Activity instructions</h2>
+        <p>Each group will analyse and work on one of the scenarios provided above. Follow the instructions below to complete this task:</p>
+        <ol class="nomargintop">
+            <li>Step 1...</li>
+            <li>Step 2...</li>
+            <li>Step 3...</li>
+        </ol>
+      </div>
+
+      <hr>
+
+      <!-- Tabbed box -->
+      <div class="tab-block w3-border">
+        <!-- Tab bar -->
+        <div class="tab-bar w3-bar greybg">
+          <button class="w3-bar-item w3-button black-hover tablink w3-border-right whitebg" onclick="openTab(event,'Tab1')">Tab 1 title</button>
+          <button class="w3-bar-item w3-button black-hover tablink w3-border-right" onclick="openTab(event,'Tab2')">Tab 2 title</button>
+          <button class="w3-bar-item w3-button black-hover tablink w3-border-right end-shadow" onclick="openTab(event,'Tab3')">Tab 3 title</button>
+        </div>
+        <!-- Tab1 -->
+        <div id="Tab1" class="w3-container w3-padding-16 tab-content">
+          <h2>Tab 1 title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sapien urna. Nullam ut tincidunt est, eu dictum metus. Donec convallis tellus in diam mattis vestibulum. Cras quam urna, varius non aliquam et, commodo ut felis. Phasellus quam nisi, blandit et ullamcorper in, lobortis sit amet urna. Suspendisse nec urna.</p>
+        </div>
+        <!-- Tab2 -->
+        <div id="Tab2" class="w3-container w3-padding-16 tab-content" style="display:none">
+          <h2>Tab 2 title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sapien urna. Nullam ut tincidunt est, eu dictum metus. Donec convallis tellus in diam mattis vestibulum. Cras quam urna, varius non aliquam et, commodo ut felis. Phasellus quam nisi, blandit et ullamcorper in, lobortis sit amet urna. Suspendisse nec urna.</p>
+        </div>
+        <!-- Tab3 -->
+        <div id="Tab3" class="w3-container w3-padding-16 tab-content" style="display:none">
+          <h2>Tab 3 title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sapien urna. Nullam ut tincidunt est, eu dictum metus. Donec convallis tellus in diam mattis vestibulum. Cras quam urna, varius non aliquam et, commodo ut felis. Phasellus quam nisi, blandit et ullamcorper in, lobortis sit amet urna. Suspendisse nec urna.</p>
+        </div>
+      </div>
+      <!-- Script -->
+      <script>
+      function openTab(evt, tabName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("tab-content");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" whitebg", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " whitebg";
+        }
+      </script>
+
+      <hr>
+
+    <!-- bullet list solution from 208 
+    
+      .bulleted-list {
+    margin: 40px 8% 0;
+}
+
+.bullet-line {
+    margin-bottom: 15px;
+}
+
+.bullet {
+  height: 50px;
+  width: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--full); 
+  background: #fff;
+  color: var(--full);
+  font-size: 18px;
+  font-weight: normal;
+  box-shadow: -2px 5px 0 0 rgba(0, 0, 0, 0.1);
+  float: left;
+  position: relative;
+  top: -12px;
+  margin-right: 20px;
+}
+
+.bullet-line p, .bullet-line h2, .bullet-line h3, .bullet-line h4, .bullet-line ul, .bullet-line ol {
+    margin-left: 70px;
+}
+
+.bullet-line table {
+    margin-left: 35px;
+}
+
+.bullet-line table p, .bullet-line table h1, .bullet-line table h2, .bullet-line table h3, .bullet-line table h4 {
+    margin-left: 0px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+----------
+
+<div class="bulleted-list">
+                <div class="bullet-line"> 
+                    <div class="bullet">1</div> 
+                        <p><strong>Desk based</strong></p>
+                            <ul>
+                                <li>Qualitative or quantitative research based on existing/ secondary data (which students have permission to use) - this might be publicly available or from a student’s own organisation</li>
+                                <li>Audit or quality improvement project</li>
+                            </ul>
+                    <div class="clearfix"></div> 
+                </div> 
+                <div class="bullet-line"> 
+                    <div class="bullet">2</div> 
+                        <p><strong>Literature based</strong></p>
+                            <ul>
+                                <li>Systemic review</li>
+                                <li>Policy analysis</li>
+                                <li>Literature review</li>
+                            </ul>
+                    <div class="clearfix"></div> 
+                </div> 
+                <div class="bullet-line"> 
+                    <div class="bullet">3</div> 
+                        <p><strong>Primary research based</strong></p>
+                            <ul>
+                                <li>Qualitative or quantitative research - this may be a stand-alone or students may supplement an audit (for example) with a small number of qualitative in-depth interviews</li>
+                            </ul>
+                    <div class="clearfix"></div> 
+                </div> 
+            </div>
+    -->
+
+        <!-- Page header BURGUNDY -->
+        <div class="w3-container pageheader-burgundy burgundybg w3-display-container">
+          <header>
+            <img src="../images/lstm-logo-WHT.png" class="w3-display-right w3-margin-right">
+            <h1>Module introduction and a long title</h1>
+          </header>
+        </div>
+
+        <!-- Page header GREY -->
+        <div class="w3-container pageheader w3-display-container">
+          <header>
+            <img src="../images/lstm-logo-COL.png" class="w3-display-right w3-margin-right">
+            <h1>Assessment</h1>
+          </header>
+        </div>
+
+        <!-- Page header BLUE -->
+        <div class="w3-container pageheader-blue w3-display-container">
+          <header>
+            <img src="../images/lstm-logo-WHT.png" class="w3-display-right w3-margin-right">
+            <h1 class="white">Groupwork</h1>
+          </header>
+        </div>
+
+        <!-- Page header ORANGE -->
+        <div class="w3-container pageheader-orange w3-display-container">
+          <header>
+            <img src="../images/lstm-logo-WHT.png" class="w3-display-right w3-margin-right">
+            <h1 class="white">Groupwork</h1>
+          </header>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

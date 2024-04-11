@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mark's dev page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/w3lstm.css">
+    <script src="../java/javatest.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <!-- Page container -->
+    <div class="brightspace-container">
+
+        <!-- Accordion W3 -->
+        <p id="BMaccordion"><span class="w3-tag darkbluebg w3-round-circle w3-padding w3-margin-bottom">Accordion</span></p>
+        <p class="blue">START COPY HERE</p>
+        <h3>Title of accordion</h3>
+        <p class="subline">Click on each row to expand it and reveal more information.</p>
+        <div class="accordion-block">
+            <!-- 1 -->
+            <h3 class="nomargin">
+                <button onclick="myFunction('Acc1')" class="w3-button grey-hover black-active w3-block w3-left-align w3-border nomargin">
+                    <span class="material-icons accordion-icons">chevron_right</span>
+                    Accordion item 1
+                </button>
+            </h3>
+            <!-- Accordion inner text -->
+            <div id="Acc1" class="w3-hide accordion-container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium odio eu lorem tempus finibus. Nam sodales nibh eget ultricies viverra. Fusce hendrerit rhoncus ex, a laoreet sem hendrerit id. Suspendisse fermentum enim eu mi commodo, id sodales ipsum aliquet. Nam vestibulum id tortor vel tristique. Mauris volutpat enim magna.</p>
+            </div>
+            <!-- 2 -->
+            <h3 class="nomargin">
+                <button onclick="myFunction('Acc2')" class="w3-button grey-hover black-active w3-block w3-left-align w3-border nomargin">
+                    <span class="material-icons accordion-icons">chevron_right</span>
+                    Accordion item 2
+                </button>
+            </h3>
+            <!-- Accordion inner text -->
+            <div id="Acc2" class="w3-hide accordion-container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium odio eu lorem tempus finibus. Nam sodales nibh eget ultricies viverra. Fusce hendrerit rhoncus ex, a laoreet sem hendrerit id. Suspendisse fermentum enim eu mi commodo, id sodales ipsum aliquet. Nam vestibulum id tortor vel tristique. Mauris volutpat enim magna.</p>
+            </div>
+        </div>
+
+        <!-- Tabbed box -->
+        <p id="BMtabbedbox"><span class="w3-tag darkbluebg w3-round-circle w3-padding w3-margin-bottom">Tabbed box</span></p>
+        <p class="blue">START COPY HERE</p>
+        <div class="tab-block w3-border">
+            <!-- Tab bar -->
+            <div class="w3-bar greybg tab-bar">
+            <button class="w3-bar-item w3-button black-hover tablink w3-border-right whitebg" onclick="openTab(event,'Tab1')">Tab 1</button>
+            <button class="w3-bar-item w3-button black-hover tablink w3-border-right" onclick="openTab(event,'Tab2')">Tab 2</button>
+            <button class="w3-bar-item w3-button black-hover tablink w3-border-right" onclick="openTab(event,'Tab3')">Tab 3</button>
+        </div>
+            <!-- Tab1 -->
+            <div id="Tab1" class="w3-container w3-padding-16 tab-content">
+            <h2>Tab 1 title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sapien urna. Nullam ut tincidunt est, eu dictum metus. Donec convallis tellus in diam mattis vestibulum. Cras quam urna, varius non aliquam et, commodo ut felis. Phasellus quam nisi, blandit et ullamcorper in, lobortis sit amet urna. Suspendisse nec urna.</p>
+            </div>
+            <!-- Tab2 -->
+            <div id="Tab2" class="w3-container w3-padding-16 tab-content" style="display:none">
+            <h2>Tab 2 title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend convallis urna, vel varius tortor auctor consectetur. Sed feugiat tortor sed sem rhoncus aliquet. Nullam non erat euismod, congue massa.</p>
+            </div>
+            <!-- Tab3 -->
+            <div id="Tab3" class="w3-container w3-padding-16 tab-content" style="display:none">
+            <h2>Tab 3 title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum varius dolor vel dignissim. Sed nisi purus, auctor sit amet tincidunt nec, feugiat vel eros. Aenean in tellus ipsum. Phasellus condimentum imperdiet faucibus. Nulla ac blandit risus. Sed eget lorem ac arcu auctor convallis. Sed convallis turpis massa, at molestie lectus viverra nec. Praesent sit amet tellus vel purus posuere lacinia sodales sed nisi. Phasellus sit amet purus at magna.</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>© Liverpool School of Tropical Medicine. All rights reserved.</p>
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>
